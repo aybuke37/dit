@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <title>Verhaaltjes</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="border">
+        <div id=header>
+            <header>
+                <button id=hamburger><i class="fas fa-bars"></i></button>
+                <nav id=nav>
+                    <ul>
+                        <li><a href="index.html">vluchten</a></li>
+                        <li><a href="Pagina2.html">wow premium</a></li>
+                        <li><a href="pagina3.html">informatie</a></li>
+                        <li><a id=logo href="index.html"><img src="_img/sitelogo.svg" alt=""></a></li>
+                        <li><a href="Pagina4.html">klantenservice</a></li>
+                        <li><a href="Pagina5.html">verhaaltjes</a></li>
+                        <li><a href="Pagina6.html">opgeslagen</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <section>
+            <div id="titel">
+                <h1>Verhaaltjes</h1>
+            </div>
+            <button id=filteren class="flip">Filteren</button>
+            <button id=sorteren class="flip">Sorteren</button>
+            <form id="formFilteren" action="" class="hidden">
+
+                <label form="woorden">Woorden</label>
+                <div class="slidecontainer">
+                    <input id="woorden" type="range" min="10" max="89000" value="8900" class="slider">
+                </div>
+
+                <label form="leesbaarheid">Leesbaarheid</label>
+
+                <button>Makkelijk</button>
+                <button>Normaal</button>
+                <button>Moeilijk</button>
+
+                <label form="thema">Thema</label>
+                <label class="container">Verbazend
+                    <input type="checkbox" name="filter" value="verbazend">
+                    <span class="checkmark"></span>
+                </label>
+
+                <label class="container" form="ingewikkeld">Ingewikkeld
+                    <input type="checkbox" name="filter" value="ingewikkeld">
+                    <span class="checkmark"></span>
+                </label>
+
+                <label class="container">Vrolijk
+                    <input type="checkbox" name="filter" value="vrolijk">
+                    <span class="checkmark"></span>
+                </label>
+
+                <label class="container">Eng
+                    <input type="checkbox" name="filter" value="eng">
+                    <span class="checkmark"></span>
+                </label>
+
+                <label class="container">Simpel
+                    <input type="checkbox" name="filter" value="simpel">
+                    <span class="checkmark"></span>
+                </label>
+
+                <label class="container">Romantisch
+                    <input type="checkbox" name="filter" value="romantisch">
+                    <span class="checkmark"></span>
+                </label>
+
+                <label class="container">Grappig
+                    <input type="checkbox" name="filter" value="grappig">
+                    <span class="checkmark"></span>
+                </label>
+
+
+                <h3>Vorm</h3>
+                <button>Simpel</button>
+                <button>Normaal</button>
+                <button>Ingewikkeld</button>
+
+                <h3>Taal</h3>
+                <label class="container">Makkelijk
+                    <input type="checkbox" name="filter" value="makkelijk">
+                    <span class="checkmark"></span>
+                </label>
+
+                <label class="container">Moeilijk
+                    <input type="checkbox" name="filter" value="moeilijk">
+                    <span class="checkmark"></span>
+                </label>
+
+                <label class="container">Nederlands
+                    <input type="checkbox" name="filter" value="nederlands">
+                    <span class="checkmark"></span>
+                </label>
+
+                <label class="container">Engels
+                    <input type="checkbox" name="filter" value="engels">
+                    <span class="checkmark"></span>
+                </label>
+                <button id=filterKnop>Filter</button>
+            </form>
+
+            <form id="formSorteren" action="" class="hidden">
+                <h3>Taal</h3>
+                <label class="container">Leestijd</label><br>
+                <input type="radio" name="lengte" id="kort" value="kort" checked>
+
+                <label class="container" for="kort">Kort > Lang</label>
+
+                <input type="radio" name="lengte" id="Lang" value="lang" checked>
+
+                <label class="container" for="lang">Lang > Kort</label>
+
+                <input type="radio" name="lengte" id="makkelijk" value="makkelijk" checked>
+
+                <label class="container" for="makkelijk">Makkelijk > Moeilijk Leesbaar</label>
+
+                <input type="radio" name="lengte" id="Lang" value="moeilijk" checked>
+                <label class="sorterenRadio" for="Lang">Moeilijk > Makkelijk Leesbaar</label>
+            </form>
+        </section>
+
+        <main>
+            <article>
+                <img src="_img/Schermafbeelding%202018-11-23%20om%2011.52.46.png" alt="alzheimer">
+                <h2>Alzheimer</h2>
+
+                <p>Ik stap uit, euh... Hoe heet het? Zo’n vervoersdinges op wielen. Van de gemeente...
+                </p>
+
+                <p class="beoordeling">3/5</p>
+            </article>
+
+            <article>
+                <img src="_img/Verhalen/Droom%203%20L%2060em.jpg" alt='alzheimer'>
+
+                <h2>Droom</h2>
+
+                <p>Ik stap uit, euh... Hoe heet het?
+                </p>
+            </article>
+
+            <article>
+                <img src="_img/Verhalen/Regionaal%20Dagblad%2060%20L%2060em.jpg" alt='alzheimer'>
+
+                <h2>Regionaal</h2>
+
+                <p>Ik stap uit, euh... Hoe heet het? Zo’n vervoersdinges op wielen. Van de gemeente...
+                </p>
+            </article>
+
+            <article>
+                <img src="_img/Verhalen/Kater%2031%20L%2040em.jpg" alt='alzheimer'>
+
+                <h2>Kater</h2>
+
+                <p>Ik stap uit, euh... Hoe heet het? Zo’n vervoersdinges op wielen. Van de gemeente...
+                </p>
+            </article>
+
+            <article>
+                <img src="_img/Verhalen/Schoorsteen%2012%20L%2040em.png" alt='alzheimer'>
+
+                <h2>Schoorsteen</h2>
+
+                <p>Ik stap uit, euh... Hoe heet het? Zo’n vervoersdinges op wielen. Van de gemeente...
+                </p>
+            </article>
+
+            <article>
+                <img src="_img/Verhalen/Zombie%2089%20L%2060em.png" alt='alzheimer'>
+
+                <h2>Zombie</h2>
+
+                <p>Ik stap uit, euh... Hoe heet het? Zo’n vervoersdinges op wielen. Van de gemeente...
+                </p>
+            </article>
+            <footer>
+                <p>
+                </p>
+            </footer>
+        </main>
+        <script src="java.js"></script>
+    </div>
+</body>
+
+</html>
